@@ -1,19 +1,10 @@
 char const*const RED_LED_FILE[] = {
- "/sys/class/leds/l-key-red/brightness",
- "/sys/class/leds/m-key-red/brightness",
- "/sys/class/leds/r-key-red/brightness",
  "/sys/class/leds/pwr-red/brightness",
 };
 char const*const GREEN_LED_FILE[]= {
- "/sys/class/leds/l-key-green/brightness",
- "/sys/class/leds/m-key-green/brightness",
- "/sys/class/leds/r-key-green/brightness",
  "/sys/class/leds/pwr-green/brightness",
 };
 char const*const BLUE_LED_FILE[] = {
- "/sys/class/leds/l-key-blue/brightness",
- "/sys/class/leds/m-key-blue/brightness",
- "/sys/class/leds/r-key-blue/brightness",
  "/sys/class/leds/pwr-blue/brightness",
 };
 
